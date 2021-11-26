@@ -1,4 +1,4 @@
-const initNavbarScroll = () => {
+const initUpdateNavbarOnScroll = () => {
   document.addEventListener('scroll', function (e) {
     const navbar = document.querySelector('.navbar');
     if (navbar) {
@@ -11,4 +11,4 @@ const initNavbarScroll = () => {
   });
 }
 
-export { initNavbarScroll }
+export { initUpdateNavbarOnScroll }
